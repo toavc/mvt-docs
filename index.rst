@@ -15,7 +15,7 @@ MVT Docs
 Mobile Verification Toolkit
 ==================
 Mobile Verification Toolkit is the perfect way to solve your verification needs. It has a mobile app that can be used on any iOS or Android device, making it simple and convenient for people in remote areas with limited means of communication access. The tool also offers web-based solutions so you don't have an excuse not take advantage!
-`Updated documentation here <https://docs.mvt.re/en/latest/index.html>`
+`Updated documentation here <https://docs.mvt.re/en/latest/index.html>`__
 
 Mobile Verification Toolkit gives you an opportunity to reach millions of people, across hundreds of thousands of sites and different platforms. By integrating with the tool, your content is available instantly and without hassle to a whole new audience. When it comes to mobile verification solutions you need something that is user-friendly and dependable. This tool helps businesses  and individuals with verifying their social profiles and accounts, as well as having their apps and content published on different sites.
 
