@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Verification Toolkit (MVT) Documentation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>MVT Docs</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#getting-started">Getting Started</a></li>
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#ios-analysis">iOS Analysis</a></li>
+                    <li><a href="#android-analysis">Android Analysis</a></li>
+                    <li><a href="#ioc-analysis">IOC Analysis</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <p>© 2025 MVT Project</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <div class="content-header">
+                <h1>Mobile Verification Toolkit</h1>
+                <p class="subtitle">Forensic analysis tools for Android and iOS devices</p>
+            </div>
+
+            <section id="home" class="content-section">
+                <h2>Welcome to the MVT Resource Hub!</h2>
+                
+                <div class="intro-card">
+                    <img src="mvt.webp" alt="MVT Logo" class="intro-logo">
+                    <h3>What is MVT?</h3>
+                    <p>Mobile Verification Toolkit (MVT) is a collection of utilities developed by Amnesty International Security Lab to facilitate consensual forensic analysis of Android and iOS devices. Released in July 2021 as part of the Pegasus Project, MVT helps identify traces of compromise by sophisticated mobile spyware attacks.</p>
+                    
+                    <p>The toolkit simplifies and automates the process of gathering forensic traces that may indicate potential device compromise. MVT continues to be maintained by Amnesty International and other contributors, serving as an essential tool for technologists, investigators, and security researchers working to protect civil society members at risk of surveillance.</p>
+                </div>
+
+                <div class="resources-section">
+                    <h3>Resources for MVT</h3>
+
+                    <div class="resource-category">
+                        <h4>Official Documentation and Repositories</h4>
+                        <ul>
+                            <li><a href="https://mvt.re" target="_blank">MVT Official Website</a>: The primary resource for MVT documentation, including installation instructions and usage guides for both Android and iOS devices.</li>
+                            <li><a href="https://github.com/mvt-project/mvt" target="_blank">MVT GitHub Repository</a>: The official code repository where MVT is maintained, containing the latest updates, issue tracking, and contribution guidelines.</li>
+                            <li><a href="https://pypi.org/project/mvt/1.0.16/" target="_blank">MVT on PyPI</a>: The Python Package Index listing for MVT, allowing for easy installation via pip with the command <code>pip3 install mvt</code>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-category">
+                        <h4>Guides and Tutorials</h4>
+                        <ul>
+                            <li><a href="https://github.com/PiRogueToolSuite/piroguetoolsuite.github.io/blob/v2/content/docs/recipes/device_forensic/index.md" target="_blank">PiRogue Tool Suite Guide</a>: A detailed guide on using MVT with the PiRogue platform for device forensics, including preliminary setup and example commands.</li>
+                            <li><a href="https://pts-project.org/guides/g7/" target="_blank">PTS Project Guide</a>: An intermediate guide explaining how to use MVT for analyzing mobile devices and their backup images, emphasizing that MVT requires professional expertise.</li>
+                            <li><a href="https://www.privacyguides.org/en/device-integrity/" target="_blank">Privacy Guides - Device Integrity</a>: A resource explaining how MVT can be used to validate device integrity and check for indicators of compromise, with additional suggestions for iOS users at high risk.</li>
+                        </ul>
+                    </div>
+
+                    <div class="resource-category">
+                        <h4>Support Services</h4>
+                        <ul>
+                            <li><a href="https://securitylab.amnesty.org/get-help/" target="_blank">Amnesty International Security Lab Support</a>: Information about Amnesty's digital forensics analysis service for human rights defenders, activists, journalists, and other civil society members at risk. Note that as of April 2, 2025, they are temporarily unable to accept support requests from the general public due to capacity constraints.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="notice-box">
+                    <h4>Important Notice</h4>
+                    <p>MVT is designed for technical users with forensic analysis experience. It is not intended for self-assessment by end users. The tool is licensed to prevent privacy violations and explicitly prohibits extracting or analyzing data from devices without consent.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Mobile menu toggle button -->
+    <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <script>
+        // Simple JavaScript for mobile menu toggle
+        document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+            document.querySelector('.sidebar').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
